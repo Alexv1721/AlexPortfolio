@@ -25,6 +25,14 @@ const ProjectsSection = () => {
           </div>
         </div>
 
+   <div className="project" onClick={() => window.open("https://github.com/Alexv1721/-channelApp", "_blank")}>
+          <img src="unnamed.png" className='pimg' alt="Portfolio" />
+          <div className='des'>
+            <h2>Channel Website</h2>
+            <p>A channel-based broadcast platform for sharing updates with followers — clean, fast, and distraction-free.
+Broadcast updates. Reach followers. Stay simple.</p>
+          </div>
+        </div>
         <div className="project"   onClick={() => window.open("https://github.com/Alexv1721/notes", "_blank")}
 
 >
@@ -35,6 +43,10 @@ const ProjectsSection = () => {
             <p>Built a React-based Notes App to create, edit, and delete notes. Utilized state management to handle dynamic interactions and responsive UI.</p>
           </div>
         </div>
+
+        
+     
+
 
         <div className="project" onClick={() => window.open("https://alexv1721.github.io/minhackthon_2.0/", "_blank")} >
           <img src="tr.jpg" className='pimg' alt="Trivia Game" />
