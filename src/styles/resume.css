@@ -1,0 +1,82 @@
+.resume-page-wrapper {
+    background-color: #020617;
+    min-height: 100vh;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 900px;
+    animation: fadeIn 1s ease-out;
+}
+
+
+.pdf-viewer-container {
+    width: 100%;
+    height: 800px;
+    background: #1e293b;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.pdf-view {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.a {
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+a {
+    text-decoration: none;
+    border-radius: 50px;
+    padding: 16px 45px;
+    background-color: #38bdf8;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 10px 20px rgba(56, 189, 248, 0.2);
+    display: inline-block;
+}
+
+a:hover {
+    background-color: transparent;
+    color: #38bdf8;
+    border: 1px solid #38bdf8;
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(56, 189, 248, 0.4);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+
+@media screen and (max-width: 768px) {
+    .pdf-viewer-container {
+        height: 500px;
+    }
+    
+    .resume {
+        padding: 20px 10px;
+    }
+}
