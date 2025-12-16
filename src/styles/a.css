@@ -16,7 +16,7 @@
 .project {
     background-color: #1e293b;
     border: 1px solid rgba(255, 255, 255, 0.1);
-    padding: 0; /* Changed to 0 to let image sit flush */
+    padding: 0;
     transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border-radius: 16px;
     cursor: pointer;
@@ -51,7 +51,7 @@
     color: #94a3b8;
 }
 
-/* Professional Hover State */
+
 .project:hover {
     transform: translateY(-12px);
     border-color: #38bdf8;

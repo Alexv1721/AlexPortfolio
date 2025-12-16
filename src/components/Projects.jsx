@@ -44,7 +44,7 @@ const ProjectsSection = () => {
           </div>
         </div>
 
-        <div className="project" onClick={() => window.open("https://github.com/Alexv1721/alex_portfolio", "_blank")}>
+        <div className="project" onClick={() => window.open("https://github.com/Alexv1721/AlexPortfolio", "_blank")}>
           <img src="port.jpg" className='pimg' alt="Portfolio" />
           <div className='des'>
             <h2>Portfolio Website</h2>
@@ -53,13 +53,7 @@ const ProjectsSection = () => {
         </div>
 
      
-        <div className="project">
-          <img src="todo.jpg" className='pimg' alt="To-Do App" />
-          <div className='des'>
-            <h2>To-Do App</h2>
-            <p>Full-stack app using React and Django. Integrated Django REST Framework for CRUD operations and real-time UI synchronization.</p>
-          </div>
-        </div>
+  
       </div>
     </div>
   );
